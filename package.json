@@ -16,7 +16,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "",
+    "build": "tsc -p tsconfig.json",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
     "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}",
     "prepare": "npm run build",
